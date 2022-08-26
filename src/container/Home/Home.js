@@ -22,11 +22,12 @@ function Home() {
         setCoinsData(coinData);
       }
     });
+    console.log("getCoindData--->", getCoindData)
   }, []);
 
   const setAlphaSort = (direction) => {
     let sortedData;
-    if (direction == "down") {
+    if (direction === "down") {
       sortedData =
         coinData &&
         coinData.length > 0 &&
@@ -42,7 +43,7 @@ function Home() {
           }
           return 0;
         });
-    } else if (direction == "up") {
+    } else if (direction === "up") {
       sortedData =
         coinData &&
         coinData.length > 0 &&
