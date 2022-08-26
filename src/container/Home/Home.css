@@ -1,0 +1,10 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+img {
+  max-width: 100%;
+}
+.app-wrapper {
+  background-color: #282c34;
+  min-height: 100vh;
+}
